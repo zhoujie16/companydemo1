@@ -1,0 +1,101 @@
+body {
+	margin-top: 75px;
+}
+
+.container-fluid.body {
+	position: relative;
+	height: calc(100vh - 90px);
+	overflow: auto;
+}
+
+
+/*index-header*/
+
+.index-header {
+	position: fixed;
+	top: 15px;
+	left: 15px;
+	right: 15px;
+	height: 60px;
+	line-height: 60px;
+}
+
+
+/*首页大图*/
+
+.index-image {
+	position: relative;
+	width: 100%;
+	height: calc(100vh - 90px);
+	background-image: url(assset/index-image.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/*概要*/
+
+.company-description {
+	margin-top: 30px;
+}
+
+.company-description .c-d-left {}
+
+.company-description .c-d-right {}
+
+.company-description .c-d-left .c-d-card {
+	padding: 40px;
+	color: white;
+}
+
+.company-description .c-d-left .c-d-card:nth-of-type(1) {
+	background-color: #6699FF;
+}
+
+.company-description .c-d-left .c-d-card:nth-of-type(2) {
+	background-color: #9966FF;
+}
+
+.company-description .c-d-left .c-d-card:nth-of-type(3) {
+	background-color: #66CC99;
+}
+
+.company-description .c-d-left .c-d-card .title {
+	font-size: 18px;
+	padding: 10px 0;
+}
+
+.company-description .c-d-left .c-d-card .line {
+	margin-bottom: 10px;
+}
+
+.company-description .c-d-left .c-d-card .content {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+.company-description .c-d-right {
+	padding: 50px 30px 0 30px;
+}
+
+.company-description .c-d-right .c-d-card .title {
+	font-size: 30px;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+	color: #555;
+}
+
+.company-description .c-d-right .c-d-card .sub-title {
+	color: #888;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.company-description .c-d-right .c-d-card .content {
+	font-size: 15px;
+	color: #555;
+	line-height: 36px;
+	text-align: justify;
+}
